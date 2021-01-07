@@ -2,30 +2,17 @@
 <html lang="en">
     <head>
         <title>Abubakar's Portfolio</title>
-        <style>
-            :root{
-                margin:2px;
-                background: var(--main-color);
-                --main-color: crimson;
-                --side-color: orchid;
-                --body-font-size: 18px;
-                --heading-font-size: 2em;
-            }
-            body{
-                background: var(--side-color);
-                font-size: var(--body-font-size);
-                padding: 20px;
-            }
-        </style>
+        <link rel="stylesheet" href="./styles.css" rel="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
             <h2>Abubakar</h2>
-            <p>I am a self motivated technology ethusiast and also a seasoned Graduate Engineer. My interests span from Industrial Automation and Control, Power Systems, Web Development and Cloud Computing. <br>
-            I currently work as a power systems engineer, responsible for making sure that power availablity for my companys production centers are above 90%. I try to always imbibe the habit of continous improvement and also seek new ways and pattern to resolve simple and complex problems. <br>
-            Having acquired skills ranging from operational excellence, project management, leadership, strategic thinking, critical thinking, six sigma yellow belt, microsoft productivity tools and cloud computing, I seek to make my daily activites add value to the company and also align my goals with the organization goals.</p>
+            <p>I am a self motivated technology ethusiast and also a seasoned Graduate Engineer. My interests span from Industrial Automation and Control, Power Systems, Web Development and Cloud Computing. I am currently work as a power systems engineer, responsible for making sure that power availablity for my companys production centers are above 90%. I try to always imbibe the habit of continous improvement and also seek new ways and pattern to resolve simple and complex problems. Having acquired skills ranging from operational excellence, project management, leadership, strategic thinking, critical thinking, six sigma yellow belt, microsoft productivity tools and cloud computing, I seek to make my daily activites add value to the company and also align my goals with the organization goals.</p>
         </main>
-        <form action="#">
+        <hr>
+        <form action="#" class="form">
             <label for="firstname">First Name <br>
                 <input id="firstname" type="text" placeholder="firstname">
             </label><br>
@@ -42,7 +29,7 @@
                 <input id="confirmpassword" type="password" placeholder="confirm password">
             </label><br>
             <label for="verify">
-                <input id="verify" value="verified" type="checkbox">by signing up, you agree to the <a href="#">Play term of service.</a>
+                <input id="verify" value="verified" type="checkbox">by signing up, you agree to the <br> <a href="#">Play term of service.</a>
             </label><br>
             <button type="submit">Submit</button>
         </form>
@@ -50,4 +37,5 @@
 
         </footer>
     </body>
+    <script type="module" src="index.js"></script>
 </html>
